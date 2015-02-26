@@ -35,8 +35,44 @@ body {
 	text-align: left;
 	}
 
+#headerdeco {
+	width: 760px;
+	height: 100px;
+	background: #fff url('images/headerdeco.png') no-repeat bottom center;
+	background-size: 760px 100px;
+	background-repeat: no-repeat;
+}
+
+#headerdeco h1 {
+	margin: 0px;
+	padding: 15px 20px 0px 0px;
+	text-align: right;
+	color: #fff;
+}
+
+#headerdeco div {
+	margin: 0px;
+	padding: 0px 20px 0px 0px;
+	text-align: right;
+	color: #fff;
+}
+
+#headerdeco div a {
+	color: #fff;
+}
+
+#headerlogo {
+	width: 760px;
+	height: 110px;
+	background: #fff url('images/logo.png') no-repeat bottom center;
+	background-size: 400px 100px;
+	background-repeat: no-repeat;
+}
+
 #header {
-	background: #73a0c5 url('images/kubrickheader.jpg') no-repeat bottom center;
+	background: #73a0c5 url('images/header.png') no-repeat bottom center;
+	background-size: 760px 200px;
+	background-repeat: no-repeat;
 	}
 
 #headerimg 	{
@@ -48,6 +84,29 @@ body {
 #content {
 	font-size: 1.2em;
 	}
+
+#content-ph {
+	margin: 0px 40px;
+	padding: 5px 10px 0px;
+}
+
+#content-ph h2 {
+	color: #777;
+	font-family: Verdana;
+	font-size: 2em;
+	text-align: left;
+	padding: 0px 0px;
+}
+
+#content-ph p {
+	color: #777;
+	font-family: Helvetica;
+	font-size: 1.6em;
+	line-height: 25px;
+	text-align: left;
+	padding: 0px 0px;
+	margin: 5px 0px 20px;
+}	
 
 .widecolumn .entry p {
 	font-size: 1.05em;
@@ -81,7 +140,8 @@ border: 1px solid #ddd;
 }
 
 #footer {
-	background: #e7e7e7 url('images/kubrickfooter.jpg') no-repeat top;
+	background: #e7e7e7 url('images/footer.png') no-repeat top;
+	background-size: 760px 488px;
 	border: none;
 	}
 
@@ -321,14 +381,52 @@ body {
 	padding: 0;
 	margin: 0 auto;
 	width: 760px;
+	height: 488px;
 	clear: both;
 	}
 
 #footer p {
+	color: #fff;
 	margin: 0;
 	padding: 20px 0;
 	text-align: center;
 	}
+
+#footer-ph {
+	margin: 0px 40px;
+	padding: 5px 10px 0px;
+}
+
+#footer-ph h2 {
+	color: #01adef;
+	font-family: GillSans;
+	font-size: 2em;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#footer-ph p {
+	font-family: HelveticaLight;
+	font-size: 1.6em;
+	line-height: 20px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#footer > p {
+	color: #01adef;
+}
+
+#footer a {
+	color: #aaa;
+	text-decoration: none;
+	}
+
+#footer a:hover {
+	color: #063f7b;
+	text-decoration: none;
+	}
+
 /* End Structure */
 
 
