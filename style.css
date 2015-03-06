@@ -61,6 +61,22 @@ body {
 	color: #fff;
 }
 
+#headermenu {
+	font-size: 1.6em;
+}
+
+#headermenu ul {
+	list-style: none;
+	padding: 10px 30px 0px;
+	margin: 0px;
+}
+
+#headermenu li {
+	display: inline-block;
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+}
+
 #headerlogo {
 	width: 960px;
 	height: 245px;
@@ -303,7 +319,7 @@ body {
 
 #page {
 	background-color: white;
-	margin: 20px auto;
+	margin: 0px auto;
 	padding: 0;
 	width: 960px;
 	border: 1px solid #959596;
