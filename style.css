@@ -62,7 +62,7 @@ body {
 }
 
 #headermenu {
-	font-size: 1.6em;
+	font-size: 2.2em;
 }
 
 #headermenu ul {
@@ -102,21 +102,21 @@ body {
 
 #content-ph {
 	margin: 0px 40px;
-	padding: 5px 10px 0px;
+	padding: 5px 10px 20px;
 }
 
 #content-ph h2 {
 	color: #777;
 	font-family: Verdana;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: left;
-	padding: 0px 0px;
+	padding: 5px 0px 15px 0px;
 }
 
 #content-ph p {
 	color: #777;
 	font-family: Helvetica;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	line-height: 25px;
 	text-align: left;
 	padding: 0px 0px;
@@ -391,11 +391,11 @@ body {
 }
 
 #footer {
-	background-size: 960px 613px;
+	background-size: 960px 486px;
 	padding: 0;
 	margin: 0 auto;
 	width: 960px;
-	height: 613px;
+	height: 486px;
 	clear: both;
 	}
 
@@ -414,20 +414,23 @@ body {
 #footer-ph h2 {
 	color: #01adef;
 	font-family: GillSans;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: left;
-	padding: 5px 0px;
+	padding: 5px 0px 15px 0px;
 }
 
 #footer-ph p {
 	font-family: HelveticaLight;
-	font-size: 1.6em;
+	font-size: 1.8em;
 	line-height: 20px;
 	text-align: left;
 	padding: 5px 0px;
 }
 
 #footer > p {
+	margin-left: auto;
+	margin-right: auto;
+	position:relative; top: 50px;
 	color: #01adef;
 }
 
