@@ -98,6 +98,7 @@ body {
 
 #content {
 	font-size: 1.2em;
+	color: #555;
 	}
 
 #content-ph {
@@ -106,11 +107,22 @@ body {
 }
 
 #content-ph h2 {
-	color: #777;
 	font-family: Verdana;
 	font-size: 2.5em;
 	text-align: left;
 	padding: 5px 0px 15px 0px;
+}
+
+#content-ph h3 {
+	font-family: Verdana;
+	font-size: 1.8em;
+}
+
+#content-ph h4 {
+	font-family: Verdana;
+	font-size: 1.6em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 #content-ph p {
@@ -121,7 +133,18 @@ body {
 	text-align: left;
 	padding: 0px 0px;
 	margin: 5px 0px 20px;
-}	
+}
+
+#content-ph b {
+	color: #555;
+}
+
+#content-ph ul {
+	color: #777;
+	font-family: Helvetica;
+	font-size: 1.8em;
+	line-height: 25px;
+}
 
 .widecolumn .entry p {
 	font-size: 1.05em;
@@ -175,9 +198,9 @@ h1 {
 	text-align: center;
 	}
 
-#headerimg .description {
-	font-size: 1.2em;
-	text-align: center;
+#headerdeco .description {
+	font-size: 1.8em;
+	text-align: right;
 	}
 
 h2 {
@@ -197,7 +220,7 @@ h3 {
 	font-size: 1.3em;
 	}
 
-h1, h1 a, h1 a:hover, h1 a:visited, #headerimg .description {
+h1, h1 a, h1 a:hover, h1 a:visited, #headerdeco .description {
 	text-decoration: none;
 	color: white;
 	}
@@ -329,7 +352,6 @@ body {
 	background-size: 960px 297px;
 	}
 
-
 #headerimg {
 	margin: 0;
 	height: 200px;
@@ -430,8 +452,10 @@ body {
 #footer > p {
 	margin-left: auto;
 	margin-right: auto;
-	position:relative; top: 50px;
+	position:relative;
+	top: 50px;
 	color: #01adef;
+	font-size: 1.6em;
 }
 
 #footer a {
@@ -826,6 +850,35 @@ div.aligncenter {
 	margin: 0;
 }
 /* End captions */
+
+#process {
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(top, #3d7dc6, #3367a3);
+	background: -o-linear-gradient(top, #3d7dc6, #3367a3);
+	background: -moz-linear-gradient(top, #3d7dc6, #3367a3);
+	background: linear-gradient(top, #3d7dc6, #3367a3);
+	text-align: center;
+	display: inline-table;
+	vertical-align: middle;
+	color: #fff;
+	font-size: 1.35em;
+	padding: 30px 20px;
+	width: 100px;
+	height: 40px;
+	margin: 5px 0px;
+}
+
+#process+div {
+	display: inline;
+}
+
+#process+div i {
+	color: #aaa;
+}
+
 
 
 /* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
