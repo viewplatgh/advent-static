@@ -37,9 +37,9 @@ body {
 
 #headerdeco {
 	width: 960px;
-	height: 120px;
+	height: 100px;
 	background: #fff url('images/headerdeco.jpg') no-repeat bottom center;
-	background-size: 960px 120px;
+	background-size: 960px 100px;
 	background-repeat: no-repeat;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 #headermenu {
-	font-size: 2.2em;
+	font-size: 1.8em;
 }
 
 #headermenu ul {
@@ -79,9 +79,9 @@ body {
 
 #headerlogo {
 	width: 960px;
-	height: 245px;
+	height: 147px;
 	background: #fff url('images/logo.jpg') no-repeat bottom center;
-	background-size: 960px 245px;
+	background-size: 576px 147px;
 	background-repeat: no-repeat;
 }
 
@@ -103,36 +103,35 @@ body {
 
 #content-ph {
 	margin: 0px 40px;
-	padding: 5px 10px 20px;
+	padding: 5px 10px 15px;
 }
 
 #content-ph h2 {
 	font-family: Verdana;
-	font-size: 2.5em;
+	font-size: 1.6em;
 	text-align: left;
-	padding: 5px 0px 15px 0px;
+	margin: 15px 0px;
+	padding: 5px 0px;
 }
 
 #content-ph h3 {
 	font-family: Verdana;
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 #content-ph h4 {
 	font-family: Verdana;
-	font-size: 1.6em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+	font-size: 1.3em;
 }
 
 #content-ph p {
 	color: #777;
 	font-family: Helvetica;
-	font-size: 1.8em;
-	line-height: 25px;
+	font-size: 1.3em;
+	line-height: 20px;
 	text-align: left;
-	padding: 0px 0px;
-	margin: 5px 0px 20px;
+	margin: 15px auto;	
+	padding: 0px;
 }
 
 #content-ph b {
@@ -142,8 +141,8 @@ body {
 #content-ph li {
 	color: #777;
 	font-family: Helvetica;
-	font-size: 1.8em;
-	line-height: 25px;
+	font-size: 1.3em;
+	line-height: 20px;
 	text-indent: 0px;
 }
 
@@ -415,10 +414,11 @@ body {
 
 #footer {
 	background-size: 960px 486px;
-	padding: 0;
-	margin: 0 auto;
+	background-position: 0px -146px;
+	padding: 0px;
+	margin: 0px auto;
 	width: 960px;
-	height: 486px;
+	height: 340px;
 	clear: both;
 	}
 
@@ -437,15 +437,16 @@ body {
 #footer-ph h2 {
 	color: #01adef;
 	font-family: GillSans;
-	font-size: 2.5em;
+	font-size: 1.6em;
 	text-align: left;
-	padding: 5px 0px 15px 0px;
+	padding: 0px;
+	margin: 15px auto;
 }
 
 #footer-ph p {
 	font-family: HelveticaLight;
-	font-size: 1.8em;
-	line-height: 20px;
+	font-size: 1.3em;
+	line-height: 15px;
 	text-align: left;
 	padding: 5px 0px;
 }
@@ -454,7 +455,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	position:relative;
-	top: 50px;
+	top: 110px;
 	color: #01adef;
 	font-size: 1.6em;
 }
