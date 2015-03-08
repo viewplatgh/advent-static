@@ -871,11 +871,11 @@ div.aligncenter {
 	margin: 5px 0px;
 }
 
-#process+div {
+#process-arrow {
 	display: inline;
 }
 
-#process+div i {
+#process-arrow i {
 	color: #aaa;
 }
 
