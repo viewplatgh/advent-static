@@ -139,11 +139,12 @@ body {
 	color: #555;
 }
 
-#content-ph ul {
+#content-ph li {
 	color: #777;
 	font-family: Helvetica;
 	font-size: 1.8em;
 	line-height: 25px;
+	text-indent: 0px;
 }
 
 .widecolumn .entry p {
@@ -553,8 +554,8 @@ img.alignleft {
 html>body .entry ul {
 	margin-left: 0px;
 	padding: 0 0 0 30px;
-	list-style: none;
-	padding-left: 10px;
+/*	list-style: none;
+*/	padding-left: 10px;
 	text-indent: -10px;
 	}
 
@@ -562,9 +563,9 @@ html>body .entry li {
 	margin: 7px 0 8px 10px;
 	}
 
-.entry ul li:before, #sidebar ul ul li:before {
+/*.entry ul li:before, #sidebar ul ul li:before {
 	content: "\00BB \0020";
-	}
+	}*/
 
 .entry ol {
 	padding: 0 0 0 35px;
