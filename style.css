@@ -474,6 +474,14 @@ body {
 	text-decoration: none;
 	}
 
+#footer-ph a {
+	color: #fff;
+}
+
+#footer-ph a:hover {
+	color: #ddd;
+}
+
 /* End Structure */
 
 
