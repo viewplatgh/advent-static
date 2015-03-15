@@ -873,10 +873,10 @@ div.aligncenter {
 	-o-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background: -webkit-linear-gradient(top, #3d7dc6, #3367a3);
-	background: -o-linear-gradient(top, #3d7dc6, #3367a3);
-	background: -moz-linear-gradient(top, #3d7dc6, #3367a3);
-	background: linear-gradient(top, #3d7dc6, #3367a3);
+	background: -webkit-linear-gradient(to bottom, #3d7dc6, #3367a3);
+	background: -o-linear-gradient(to bottom, #3d7dc6, #3367a3);
+	background: -moz-linear-gradient(to bottom, #3d7dc6, #3367a3);
+	background: linear-gradient(to bottom, #3d7dc6, #3367a3);
 	text-align: center;
 	display: inline-table;
 	vertical-align: middle;
