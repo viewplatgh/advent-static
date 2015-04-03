@@ -24,15 +24,15 @@ Tags: blue, custom header, fixed width, two columns, widgets
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
 	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
-	background-color: #92bedf;
+	background-color: #e9f5fb;
 	color: #333;
 	text-align: center;
 	}
 
 #page {
-	background-color: white;
-	border: 1px solid #959596;
 	text-align: left;
+	background: url('images/square_bg.png') repeat bottom left;
+	background-size: 100px 100px;
 	}
 
 #headerdeco {
@@ -40,7 +40,6 @@ body {
 	height: 100px;
 	background: #fff url('images/headerdeco.jpg') no-repeat bottom center;
 	background-size: 960px 100px;
-	background-repeat: no-repeat;
 }
 
 #headerdeco h1 {
@@ -62,27 +61,56 @@ body {
 }
 
 #headermenu {
-	font-size: 2.5em;
+	width: 960px;
+	height: 40px;
+	font-size: 1.8em;
 }
 
 #headermenu ul {
 	list-style: none;
-	padding: 10px 30px 0px;
-	margin: 0px;
+	padding: 5px 35px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #headermenu li {
 	display: inline-block;
-	padding: 0px 20px 0px 0px;
+	padding: 5px 10px;
 	margin: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headermenu li:hover {
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ace1f9;
 }
 
 #headerlogo {
 	width: 960px;
-	height: 147px;
-	background: #fff url('images/logo.jpg') no-repeat bottom center;
-	background-size: 576px 147px;
-	background-repeat: no-repeat;
+	height: 100px;
+	background: url('images/logo_s.png') no-repeat bottom left;
+	background-size: 353px 90px;
+}
+
+#headerlogo h1 {
+	margin: 0px;
+	padding: 15px 20px 0px 0px;
+	font-size: 4.8em;
+	text-align: right;
+	color: #1daeeb;
+}
+
+#headerlogo div.description {
+	margin: 0px;
+	padding: 0px 20px 0px 0px;
+	text-align: right;
+	font-size: 1.8em;
+	color: #184377;
 }
 
 #header {
@@ -97,18 +125,18 @@ body {
 	}
 
 #content {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	color: #555;
 	}
 
 #content-ph {
-	margin: 0px 40px;
-	padding: 10px 0px 5px;
+	margin: 0px 20px 0px 0px;
+	padding: 0px;
 }
 
 #content-ph h2 {
 	font-family: Verdana;
-	font-size: 2.6em;
+	font-size: 2.3em;
 	font-weight: bold;
 	text-align: left;
 	margin: 10px 0px 5px;
@@ -117,7 +145,7 @@ body {
 
 #content-ph h3 {
 	font-family: Verdana;
-	font-size: 2.3em;
+	font-size: 2.0em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
 	padding: 0px;
@@ -125,7 +153,7 @@ body {
 
 #content-ph h4 {
 	font-family: Verdana;
-	font-size: 2.1em;
+	font-size: 1.8em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
 	padding: 0px;
@@ -133,9 +161,9 @@ body {
 
 #content-ph p {
 	color: #777;
-	font-family: Helvetica;
-	font-size: 2.2em;
-	line-height: 20px;
+	font-family: Verdana;
+	font-size: 1.8em;
+	line-height: 1.5em;
 	text-align: left;
 	margin: 0px;	
 	padding: 5px 0px;
@@ -147,9 +175,9 @@ body {
 
 #content-ph li {
 	color: #777;
-	font-family: Helvetica;
-	font-size: 2.2em;
-	line-height: 20px;
+	font-family: Verdana;
+	font-size: 1.8em;
+	line-height: 0.5em;
 	text-indent: 0px;
 }
 
@@ -366,10 +394,10 @@ body {
 	}
 
 .narrowcolumn {
-	float: left;
+	float: right;
 	padding: 0 0 20px 45px;
 	margin: 0px 0 0;
-	width: 450px;
+	width: 800px;
 	}
 
 .widecolumn {
@@ -443,17 +471,17 @@ body {
 
 #footer-ph h2 {
 	color: #01adef;
-	font-family: GillSans;
-	font-size: 2.8em;
+	font-family: Verdana;
+	font-size: 2.3em;
 	text-align: left;
 	padding: 0px;
 	margin: 10px 0px;
 }
 
 #footer-ph p {
-	font-family: HelveticaLight;
-	font-size: 2.5em;
-	line-height: 10px;
+	font-family: Verdana;
+	font-size: 1.8em;
+	line-height: 0.5em;
 	text-align: left;
 	padding: 5px 0px;
 }
@@ -464,7 +492,7 @@ body {
 	position:relative;
 	top: 65px;
 	color: #01adef;
-	font-size: 1.9em;
+	font-size: 1.5em;
 }
 
 #footer a {
@@ -735,7 +763,7 @@ select {
 #sidebar
 {
 	padding: 20px 0 10px 0;
-	margin-left: 545px;
+	margin-left: 25px;
 	width: 190px;
 	}
 
