@@ -23,7 +23,7 @@ Tags: blue, custom header, fixed width, two columns, widgets
 /* Begin Typography & Colors */
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	background-color: #e9f5fb;
 	color: #333;
 	text-align: center;
@@ -31,7 +31,7 @@ body {
 
 #page {
 	text-align: left;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	background: url('images/square_bg.png') repeat bottom left;
 	background-size: 100px 100px;
 	}
@@ -48,7 +48,7 @@ body {
 	padding: 15px 20px 0px 0px;
 	text-align: right;
 	color: #fff;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #headerdeco div {
@@ -56,7 +56,7 @@ body {
 	padding: 0px 20px 0px 0px;
 	text-align: right;
 	color: #fff;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #headerdeco div a {
@@ -67,7 +67,7 @@ body {
 	width: 960px;
 	height: 40px;
 	font-size: 1.8em;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #headermenu ul {
@@ -99,7 +99,7 @@ body {
 	height: 100px;
 	background: url('images/logo_s.png') no-repeat bottom left, #fcfcfc;
 	background-size: 353px 90px;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #headerlogo h1 {
@@ -131,7 +131,7 @@ body {
 
 #content {
 	font-size: 1.0em;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	color: #555;
 	}
 
@@ -141,7 +141,7 @@ body {
 }
 
 #content-ph h2 {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 2.3em;
 	font-weight: bold;
 	text-align: left;
@@ -150,7 +150,7 @@ body {
 }
 
 #content-ph h3 {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 2.0em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -158,7 +158,7 @@ body {
 }
 
 #content-ph h4 {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -167,7 +167,7 @@ body {
 
 #content-ph p {
 	color: #777;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 1.5em;
 	text-align: left;
@@ -181,7 +181,7 @@ body {
 
 #content-ph li {
 	color: #777;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-indent: 0px;
@@ -221,17 +221,17 @@ border: 1px solid #ddd;
 #footer {
 	background: url('images/footer_s.png') no-repeat bottom, #fcfcfc;
 	border: none;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	}
 
 small {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 0.9em;
 	line-height: 1.5em;
 	}
 
 h1, h2, h3 {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
 	}
 
@@ -254,7 +254,7 @@ h2.pagetitle {
 	}
 
 #sidebar h2 {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.5em;
 	}
 
@@ -318,7 +318,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 #commentform p {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	}
 
 .commentmetadata {
@@ -477,7 +477,7 @@ body {
 
 #footer-ph h2 {
 	color: #1daeeb;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 2.3em;
 	text-align: left;
 	padding: 0px;
@@ -485,7 +485,7 @@ body {
 }
 
 #footer-ph p {
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-align: left;
@@ -496,7 +496,7 @@ body {
 	position: relative;
 	color: #aaa;
 	font-size: 1.3em;
-	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
+	font-family: Helvetica, Arial, Sans-Serif;
 }
 
 #footer a {
