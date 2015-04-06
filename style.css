@@ -459,13 +459,12 @@ body {
 #footer p {
 	color: #fff;
 	margin: 0;
-	padding: 10px 0;
+	padding: 5px 0;
 	text-align: center;
 	}
 
 #footer-ph {
-	float: right;
-	margin: 0px 40px;
+	margin: 0px 0px 0px 650px;
 	padding: 5px 0px;
 }
 
@@ -487,9 +486,7 @@ body {
 }
 
 #footer > p {
-	float: left;
-	margin-left: 350px;
-	margin-top: 105px;
+	position: relative;
 	color: #fff;
 	font-size: 1.5em;
 }
