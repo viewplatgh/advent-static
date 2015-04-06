@@ -31,6 +31,7 @@ body {
 
 #page {
 	text-align: left;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	background: url('images/square_bg.png') repeat bottom left;
 	background-size: 100px 100px;
 	}
@@ -47,6 +48,7 @@ body {
 	padding: 15px 20px 0px 0px;
 	text-align: right;
 	color: #fff;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 }
 
 #headerdeco div {
@@ -54,6 +56,7 @@ body {
 	padding: 0px 20px 0px 0px;
 	text-align: right;
 	color: #fff;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 }
 
 #headerdeco div a {
@@ -64,6 +67,7 @@ body {
 	width: 960px;
 	height: 40px;
 	font-size: 1.8em;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 }
 
 #headermenu ul {
@@ -95,6 +99,7 @@ body {
 	height: 100px;
 	background: url('images/logo_s.png') no-repeat bottom left, #fcfcfc;
 	background-size: 353px 90px;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 }
 
 #headerlogo h1 {
@@ -126,6 +131,7 @@ body {
 
 #content {
 	font-size: 1.0em;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	color: #555;
 	}
 
@@ -215,6 +221,7 @@ border: 1px solid #ddd;
 #footer {
 	background: url('images/footer_s.png') no-repeat bottom, #fcfcfc;
 	border: none;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	}
 
 small {
@@ -489,6 +496,7 @@ body {
 	position: relative;
 	color: #aaa;
 	font-size: 1.3em;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 }
 
 #footer a {
