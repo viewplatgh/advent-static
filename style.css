@@ -135,7 +135,7 @@ body {
 }
 
 #content-ph h2 {
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 2.3em;
 	font-weight: bold;
 	text-align: left;
@@ -144,7 +144,7 @@ body {
 }
 
 #content-ph h3 {
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 2.0em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -152,7 +152,7 @@ body {
 }
 
 #content-ph h4 {
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -161,7 +161,7 @@ body {
 
 #content-ph p {
 	color: #777;
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 1.5em;
 	text-align: left;
@@ -175,7 +175,7 @@ body {
 
 #content-ph li {
 	color: #777;
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-indent: 0px;
@@ -218,7 +218,7 @@ border: 1px solid #ddd;
 	}
 
 small {
-	font-family: Helvetica, Sans-Serif;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 0.9em;
 	line-height: 1.5em;
 	}
@@ -247,7 +247,7 @@ h2.pagetitle {
 	}
 
 #sidebar h2 {
-	font-family: 'Lucida Console', Helvetica, Sans-Serif;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 1.5em;
 	}
 
@@ -470,7 +470,7 @@ body {
 
 #footer-ph h2 {
 	color: #1daeeb;
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 2.3em;
 	text-align: left;
 	padding: 0px;
@@ -478,7 +478,7 @@ body {
 }
 
 #footer-ph p {
-	font-family: Helvetica;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-align: left;
