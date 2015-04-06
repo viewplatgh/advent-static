@@ -23,7 +23,7 @@ Tags: blue, custom header, fixed width, two columns, widgets
 /* Begin Typography & Colors */
 body {
 	font-size: 62.5%; /* Resets 1em to 10px */
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	background-color: #e9f5fb;
 	color: #333;
 	text-align: center;
@@ -135,7 +135,7 @@ body {
 }
 
 #content-ph h2 {
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 2.3em;
 	font-weight: bold;
 	text-align: left;
@@ -144,7 +144,7 @@ body {
 }
 
 #content-ph h3 {
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 2.0em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -152,7 +152,7 @@ body {
 }
 
 #content-ph h4 {
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 1.8em;
 	font-weight: bold;
 	margin: 10px 0px 5px;
@@ -161,7 +161,7 @@ body {
 
 #content-ph p {
 	color: #777;
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 1.8em;
 	line-height: 1.5em;
 	text-align: left;
@@ -175,7 +175,7 @@ body {
 
 #content-ph li {
 	color: #777;
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-indent: 0px;
@@ -213,18 +213,18 @@ border: 1px solid #ddd;
 }
 
 #footer {
-	background: #e7e7e7 url('images/footer.jpg') no-repeat top;
+	background: url('images/footer_s.png') no-repeat bottom, linear-gradient(to right, #1e588a, #01a8e3);
 	border: none;
 	}
 
 small {
-	font-family: Arial, Helvetica, Sans-Serif;
+	font-family: Helvetica, Sans-Serif;
 	font-size: 0.9em;
 	line-height: 1.5em;
 	}
 
 h1, h2, h3 {
-	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	font-weight: bold;
 	}
 
@@ -247,8 +247,8 @@ h2.pagetitle {
 	}
 
 #sidebar h2 {
-	font-family: 'Lucida Grande', Verdana, Sans-Serif;
-	font-size: 1.2em;
+	font-family: 'Lucida Console', Helvetica, Sans-Serif;
+	font-size: 1.5em;
 	}
 
 h3 {
@@ -281,7 +281,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 .commentlist li, #commentform input, #commentform textarea {
-	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font: 0.9em 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	}
 .commentlist li ul li {
 	font-size: 1em;
@@ -311,7 +311,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 #commentform p {
-	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-family: 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	}
 
 .commentmetadata {
@@ -319,7 +319,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 #sidebar {
-	font: 1em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font: 1.3em 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	}
 
 small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
@@ -355,7 +355,7 @@ a:hover {
 	}
 
 #wp-calendar caption {
-	font: bold 1.3em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font: bold 1.3em 'Lucida Console', Helvetica, Arial, Sans-Serif;
 	text-align: center;
 	}
 
@@ -395,7 +395,7 @@ body {
 
 .narrowcolumn {
 	float: right;
-	padding: 0 0 20px 45px;
+	padding: 0 0 20px 0px;
 	margin: 0px 0 0;
 	width: 800px;
 	}
@@ -448,30 +448,30 @@ body {
 }
 
 #footer {
-	background-size: 960px 450px;
-	background-position: 0px -190px;
+	background-size: 960px 130px;
 	padding: 0px;
 	margin: 0px auto;
 	width: 960px;
-	height: 260px;
+	height: 130px;
 	clear: both;
 	}
 
 #footer p {
 	color: #fff;
 	margin: 0;
-	padding: 20px 0;
+	padding: 10px 0;
 	text-align: center;
 	}
 
 #footer-ph {
+	float: right;
 	margin: 0px 40px;
 	padding: 5px 0px;
 }
 
 #footer-ph h2 {
-	color: #01adef;
-	font-family: Verdana;
+	color: #fff;
+	font-family: Helvetica;
 	font-size: 2.3em;
 	text-align: left;
 	padding: 0px;
@@ -479,7 +479,7 @@ body {
 }
 
 #footer-ph p {
-	font-family: Verdana;
+	font-family: Helvetica;
 	font-size: 1.8em;
 	line-height: 0.5em;
 	text-align: left;
@@ -487,21 +487,20 @@ body {
 }
 
 #footer > p {
-	margin-left: auto;
-	margin-right: auto;
-	position:relative;
-	top: 65px;
-	color: #01adef;
+	float: left;
+	margin-left: 350px;
+	margin-top: 105px;
+	color: #fff;
 	font-size: 1.5em;
 }
 
 #footer a {
-	color: #aaa;
+	color: #fff;
 	text-decoration: none;
 	}
 
 #footer a:hover {
-	color: #063f7b;
+	color: #ddd;
 	text-decoration: none;
 	}
 
@@ -763,8 +762,8 @@ select {
 #sidebar
 {
 	padding: 20px 0 10px 0;
-	margin-left: 25px;
-	width: 190px;
+	margin-left: 20px;
+	width: 120px;
 	}
 
 #sidebar form {
