@@ -173,7 +173,7 @@ body {
 }
 
 #content-ph p {
-	color: #777;
+	color: #333;
 	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 1.5em;
@@ -781,6 +781,10 @@ select {
 #sidebar form {
 	margin: 0;
 	}
+
+#sidebar ul li a {
+	font-size: 1.3em;
+}
 /* End Sidebar */
 
 
