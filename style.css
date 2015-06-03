@@ -173,7 +173,7 @@ body {
 }
 
 #content-ph p {
-	color: #777;
+	color: #333;
 	font-family: Helvetica, Arial, Sans-Serif;
 	font-size: 1.8em;
 	line-height: 1.5em;
@@ -284,6 +284,13 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 
 .entry p a:visited {
 	color: #b85b5a;
+	}
+
+.entry h1 {
+	color: #333;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 0px;
 	}
 
 .sticky {
@@ -625,6 +632,7 @@ html>body .entry li {
 .entry ol {
 	padding: 0 0 0 35px;
 	margin: 0;
+	font-size: 1.5em;
 	}
 
 .entry ol li {
@@ -781,6 +789,10 @@ select {
 #sidebar form {
 	margin: 0;
 	}
+
+#sidebar ul li a {
+	font-size: 1.3em;
+}
 /* End Sidebar */
 
 
