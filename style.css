@@ -286,6 +286,13 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	color: #b85b5a;
 	}
 
+.entry h1 {
+	color: #333;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 0px;
+	}
+
 .sticky {
 	background: #f7f7f7;
 	padding: 0 10px 10px;
@@ -625,6 +632,7 @@ html>body .entry li {
 .entry ol {
 	padding: 0 0 0 35px;
 	margin: 0;
+	font-size: 1.5em;
 	}
 
 .entry ol li {
