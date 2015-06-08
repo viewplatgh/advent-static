@@ -137,9 +137,9 @@ body {
 	}
 
 #content {
-	font-size: 1.0em;
+	font-size: 1.62em;
 	font-family: Helvetica, Arial, Sans-Serif;
-	color: #555;
+	color: #333;
 	}
 
 #content-ph {
@@ -184,14 +184,6 @@ body {
 
 #content-ph b {
 	color: #333;
-}
-
-#content-ph li {
-	color: #777;
-	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 1.8em;
-	line-height: 1.0em;
-	text-indent: 0px;
 }
 
 .widecolumn .entry p {
@@ -340,7 +332,7 @@ h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar
 	}
 
 #sidebar {
-	font: 1.3em Helvetica, Arial, Sans-Serif;
+	font: 1.8em Helvetica, Arial, Sans-Serif;
 	}
 
 small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
@@ -484,32 +476,10 @@ body {
 	text-align: center;
 	}
 
-#footer-ph {
-	margin: 0px 0px 0px 650px;
-	padding: 5px 0px;
-}
-
-#footer-ph h2 {
-	color: #1daeeb;
-	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 2.3em;
-	text-align: left;
-	padding: 0px;
-	margin: 10px 0px;
-}
-
-#footer-ph p {
-	font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 1.8em;
-	line-height: 0.5em;
-	text-align: left;
-	padding: 5px 0px;
-}
-
 #footer > p {
 	position: relative;
 	color: #aaa;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	font-family: Helvetica, Arial, Sans-Serif;
 }
 
@@ -522,14 +492,6 @@ body {
 	color: #ddd;
 	text-decoration: none;
 	}
-
-#footer-ph a {
-	color: #1daeeb;
-}
-
-#footer-ph a:hover {
-	color: #ddd;
-}
 
 /* End Structure */
 
@@ -608,36 +570,24 @@ img.alignleft {
 
 
 
-/* Begin Lists
-
-	Special stylized non-IE bullets
-	Do not work in Internet Explorer, which merely default to normal bullets. */
-
-html>body .entry ul {
-	margin-left: 0px;
-	padding: 0 0 0 30px;
-/*	list-style: none;
-*/	padding-left: 10px;
-	text-indent: -10px;
-	}
-
-html>body .entry li {
-	margin: 7px 0 8px 10px;
-	}
-
-/*.entry ul li:before, #sidebar ul ul li:before {
-	content: "\00BB \0020";
-	}*/
+/* Begin Lists */
 
 .entry ol {
-	padding: 0 0 0 35px;
-	margin: 0;
-	font-size: 1.5em;
+	padding: 0;
+	color: #333;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.8em;
+	line-height: 1.5em;
+	text-indent: 0px;
 	}
 
-.entry ol li {
-	margin: 0;
+.entry li {
 	padding: 0;
+	color: #333;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 1.8em;
+	line-height: 1.5em;
+	text-indent: 0px;
 	}
 
 .postmetadata ul, .postmetadata li {
@@ -932,10 +882,10 @@ div.aligncenter {
 	display: inline-table;
 	vertical-align: middle;
 	color: #fff;
-	font-size: 1.8em;
-	padding: 35px 0px;
-	width: 180px;
-	height: 100px;
+	font-size: 1.5em;
+	line-height: 1em;
+	padding: 30px 5px;
+	width: 130px;
 	margin: 5px 0px;
 }
 
