@@ -137,7 +137,7 @@ body {
 	}
 
 #content {
-	font-size: 1.62em;
+	font-size: 1.42em;
 	font-family: Helvetica, Arial, Sans-Serif;
 	color: #333;
 	}
@@ -886,6 +886,7 @@ div.aligncenter {
 	line-height: 1em;
 	padding: 30px 5px;
 	width: 130px;
+	height: 95px;
 	margin: 5px 0px;
 }
 
